@@ -2,7 +2,6 @@
 #include<stdio.h>
 #include <malloc.h>
 
-
 char *var = NULL;
 double d_num;
 float f_num;
@@ -49,11 +48,8 @@ int main()
 			var = NULL;
 			printf("NULL\n");
 		}
-			
 		printf("l_num: %ld \n",l_num);
 		//printf("var size:%d\n",sizeof(var));
-
 	}while(var!=NULL);
-	
 	return 0;	
 }
