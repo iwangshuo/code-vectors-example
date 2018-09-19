@@ -1,3 +1,3 @@
 all:
-	gcc -o keyword keyword.c
-	gcc -o printPrime printPrime.c
+	gcc  keyword.c -o keyword
+	gcc printPrime.c -o printPrime
