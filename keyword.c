@@ -1,12 +1,9 @@
-
-#include<stdio.h>
-
-void test(int a)
+int test(int a)
 {   
     if(a>0){
-	    printf("0");
-return 0;}
+	    a++;
+	return a;}
 	else{
-		printf("1");
-	return 0;	}
+		a--;
+	return a;	}
 }
